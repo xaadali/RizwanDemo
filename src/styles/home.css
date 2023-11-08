@@ -1,0 +1,89 @@
+/* .mainCarousel .control-dots  {
+  padding-right: 40px !important;
+  padding-bottom: 50px !important;
+  display: flex !important;
+  justify-content: end !important;
+}
+  
+.mainCarousel .control-dots .dot {
+  background-color: #FFF !important;
+  height: 8px !important;
+  width: 36px !important;
+  border-radius: 0px !important;
+  opacity: 1 !important;
+}
+
+.mainCarousel .control-dots .dot.selected {
+  background-color: #FB8700 !important;
+  height: 8px !important;
+  width: 36px !important;
+  border-radius: 0px !important;
+}
+
+.mainCarousel .carousel-slider .carousel-status{
+  display: none !important;
+} */
+
+@media (max-width: 425px) {
+  .mainCarousel .control-dots  {
+    width: 100%;
+    padding-left: 30px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+.carousel-container .custom-dot-list-style {
+  display: flex;
+  justify-content: end;
+  padding-right: 82px;
+}
+.carousel-container .custom-dot-list-style .react-multi-carousel-dot--active button{
+  background-color: #FB8700 !important;
+}
+.carousel-container .custom-dot-list-style .react-multi-carousel-dot button {
+   border: #FFF;
+   height: 8px;
+   border-radius: 0px;
+   width: 36px;
+   background-color: #FFF;
+   margin-bottom: 14px;
+   margin-inline: 5px;
+}
+.carousel-container .custom-dot-list-style .react-multi-carousel-dot button:active{
+  background-color: #FB8700;
+}
+
+.react-multi-carousel-dot-list {
+  bottom: 60px !important;
+  /* width: fit-content; */
+}
+
+.react-multi-carousel-dot-list li button {
+  background: #FFF;
+  height: 8px;
+  width: 36px;
+  margin-inline: 4px;
+  border-radius: 0px;
+  border: none;
+  /* border: 1px solid #FB8700 !important; */
+
+}
+
+.react-multi-carousel-dot--active button {
+  background-color: #FB8700 !important;
+  border-color: none
+}
+
+@media (max-width: 425px) {
+  .carousel-container .custom-dot-list-style  {
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+  }
+
+  .react-multi-carousel-dot-list li button{
+    width: 20px;
+    margin-inline: 2px;
+  }
+}

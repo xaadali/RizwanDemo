@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../../public/assets/fonts/Avenir-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../../public/assets/fonts/Avenir-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../../public/assets/fonts/Avenir-Light.ttf') format('truetype');
+  font-weight: 400;
+}
+
+/* @font-face {
+  font-family: 'Avenir';
+  src: url('../../public/assets/fonts/Avenir-Light.ttf') format('truetype');
+  font-weight: 300;
+} */
+
+body {
+  background: #FFF;
+  font-family: 'Avenir' !important;
+  /* font-weight: bold !important;
+  font-weight: 900; */
+}
+
+.parent {
+  width: 400px;
+  height: 200px;
+  border: 1px solid #aaa;
+  overflow: hidden;
+}
+
+.child {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow-x: scroll;
+}
+
+.custom-box-shadow {
+  box-shadow: -4px 5px 14px 0px rgba(219, 219, 219, 0.10),
+    -15px 21px 26px 0px rgba(219, 219, 219, 0.09),
+    -35px 47px 35px 0px rgba(219, 219, 219, 0.05),
+    -61px 83px 41px 0px rgba(219, 219, 219, 0.01),
+    -96px 130px 45px 0px rgba(219, 219, 219, 0.00);
+}
+
+.arrow-icon:hover {
+  transform: translateX(10px);
+  transition: transform 0.4s ease-in-out;
+}
